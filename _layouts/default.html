@@ -7,16 +7,16 @@
          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
          <style>
 
-               section:has([name="snacks"]:checked) article:has([data-category="snacks"]) {
+               section:has([name="app"]:checked) article:has([data-category="app"]) {
 	                  display: block;
                }
 
-               section:has([name="naps"]:checked) article:has([data-category="naps"]) {
+               section:has([name="web"]:checked) article:has([data-category="web"]) {
                	    display: block;
                }
 
-               section:has([name="computers"]:checked)
-               article:has([data-category="computers"]) {
+               section:has([name="cyber"]:checked)
+               article:has([data-category="cyber"]) {
                   	display: block;
                }
 
@@ -24,15 +24,15 @@
                     	/* color code by category */
                     	--hue: 0;
 
-	                    &:has([data-category="snacks"]) {
+	                    &:has([data-category="app"]) {
 	                        	--hue: 233.35;
 	                    }
 
-                    	&:has([data-category="computers"]) {
+                    	&:has([data-category="cyber"]) {
 	                        	--hue: 91.24;
                     	}
 
-	                    &:has([data-category="naps"]) {
+	                    &:has([data-category="web"]) {
 		                        --hue: 334.61;
                	      }
 
